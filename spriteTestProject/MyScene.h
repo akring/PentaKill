@@ -7,7 +7,13 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import <CoreMotion/CoreMotion.h>
 
-@interface MyScene : SKScene
+@interface MyScene : SKScene{
+    
+    //x轴方向的速度
+    
+    CMMotionManager *manager;
+}
 
 @end
